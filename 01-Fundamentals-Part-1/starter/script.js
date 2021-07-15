@@ -29,8 +29,8 @@ const country = 'Russia';
 const isIsland = 'Popov';
 const language = 'russian';
 const description = `Russia - is in Eurasia,
-and its 144 million peop-
-le speak russian.`;
+and 144 million peop-
+le speak russian language.`;
 
 switch (language) {
     case 'chinese' || 'mandarin':
@@ -84,15 +84,15 @@ console.log(
 // console.log(population < averagePopulation);
 
 
-// if (population > averagePopulation) {
-//     console.log(`Russian's population is above average!`);
-// } else {
-//     console.log(`Russian's populations is below average!`);
-// }
+if (population > averagePopulation) {
+    console.log(`Russian's population is above average!`);
+} else {
+    console.log(`Russian's populations is below average!`);
+}
 
-// const numNeighbours = Number(prompt('How many neighbours your country have?'));
-// console.log(numNeighbours);
-// console.log(typeof numNeighbours);
+const numNeighbours = Number(prompt('How many neighbours your country have?'));
+console.log(numNeighbours);
+console.log(typeof numNeighbours);
 
 // if (numNeighbours === 1) {
 //     console.log('Only 1 border')
