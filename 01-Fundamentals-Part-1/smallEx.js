@@ -23,4 +23,16 @@ function factorial(n) {
   return product;
 }
 
-//factorial(//Type here any number);
+factorial(//Type here any number);
+
+-----------------------------------------------------
+ //The second type of function for factorial
+  
+ function factorial2(n) {
+  let i, product = 1;
+  for(let i = 2, i <= 5; i++)
+  product *= i;
+  
+  return product;
+}
+factorial2(//Type here any number);
