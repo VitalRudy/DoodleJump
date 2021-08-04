@@ -12,3 +12,8 @@ Math.PI; //
 Math.E; //
 Math.sqrt(3); //
 Math.pow(3, 1/3); //
+Math.sin(0); //
+Math.log(10); //
+Math.log(100) /Math.LN10; //
+Math.log(512) /Math.LN2; //
+Math.exp(3); //
