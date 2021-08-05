@@ -30,3 +30,21 @@ Math.log2(1024); // => 10
 Math.log1p(x); // natural logariphm (1 + x)
 Math.expm1(x); // Math.exp(x) - 1; 
 Math.sign(x); // -1, 0 or 1
+Math.imul(2,3); // => 6
+Math.clz32(ofx); // => 28
+Math.trunc(3.9); // => 3: transform to integer
+Math.fround(x); // rounding to the nearest 32 bit number
+Math.sinh(x); // 
+Math.asinh(x); //
+-------------------------------------------------------- -------------------------------------------------------- --------------------------------------------------------
+//Features for NUMBER in ES6:
+
+Number.parseInt(); // == parseInt();
+Number.parseFloat(); // == parseFloat();
+Number.isNaN(x); // is x a NaN ?
+Number.isFinite(x); // is x a finite number?
+Number.isInteger(x); // is x integer?
+Number.isSafeInteger(x); //
+Number.MIN_SAFE_INTEGER // => -(2 ** 53 - 1);
+Number.MAX_SAFE_INTEGER // => 2 ** 53 - 1;
+Number.EPSILON // => 2 ** - 52;
