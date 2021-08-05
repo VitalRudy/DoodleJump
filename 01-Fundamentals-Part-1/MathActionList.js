@@ -23,3 +23,10 @@ Math.log(10); //
 Math.log(100) /Math.LN10; //
 Math.log(512) /Math.LN2; //
 Math.exp(3); //
+Math.cbrt(27); // => 3
+Math.hypot(3,4); // => 5
+Math.log10(100); // => 2
+Math.log2(1024); // => 10
+Math.log1p(x); // natural logariphm (1 + x)
+Math.expm1(x); // Math.exp(x) - 1; 
+Math.sign(x); // -1, 0 or 1
