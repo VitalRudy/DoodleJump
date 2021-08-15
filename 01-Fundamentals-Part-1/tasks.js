@@ -47,3 +47,28 @@ const f2 = () => {
 };
 
 console.log(f2());
+
+// Solution 2
+
+const f2_2 = () => {
+  return a2.filter((item) => b2.includes(item));
+};
+
+console.log(f2_2());
+
+-------------------------------------------------------------------------------
+//Task 3
+//Sort the values in ascending and descending order
+// d = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0};
+
+let d3 = {
+  1: 22,
+  2: 4,
+  3: 3,
+  4: 1,
+  2: 7,
+  0: 0,
+  9: 5,
+};
+
+console.log(d3);
