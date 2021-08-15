@@ -74,3 +74,25 @@ let d3 = {
 for (let key in d3) {
   console.log(d3[key]);
 };
+
+// solution 2
+
+function ascFunc(a, b) {
+  return a - b;
+}
+
+function ascFunc(a, b) {
+  return b - a;
+}
+
+const f3 = (obj, type = "asc") => {
+  let val = Object.values(obj);
+  if (type == "asc") return val.sort(ascFunc);
+  if (type == "desc") return val.sort(descFun);
+};
+
+console.log(f3(d3, "asc"));
+console.log(f3(d3, "desc"));
+
+-------------------------------------------------------------------------------
+// Task 4
