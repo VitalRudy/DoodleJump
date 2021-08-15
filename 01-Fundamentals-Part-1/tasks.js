@@ -71,4 +71,6 @@ let d3 = {
   9: 5,
 };
 
-console.log(d3);
+for (let key in d3) {
+  console.log(d3[key]);
+};
