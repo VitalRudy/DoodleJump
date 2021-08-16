@@ -96,3 +96,15 @@ console.log(f3(d3, "desc"));
 
 -------------------------------------------------------------------------------
 // Task 4
+// Write a programm to merge two objects in one.
+  
+const a4 = {1:10, 2:20},
+const b4 = {3:30, 4:40},
+const c4 = {5:50, 6:60};
+
+// solution 
+
+const obj4 = Object.assign({}, a4, b4, c4);
+console.log(obj4);
+
+//Task 5
