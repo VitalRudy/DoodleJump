@@ -164,3 +164,16 @@ const f9 = arr => {
   }
 }
 f9(a9);
+
+-------------------------------------------------------------------------------
+//Task 10
+//Write a program that accepts two lists and outputs all the elements of the first one that are not in the second one.
+  
+const a10 = ['Red','Green','Blue'],
+const b10 = ['Yellow','Blue','Green'];
+
+const f10 = (arr1, arr2) => {
+  return arr1.filter(item => arr2.includes(item));
+}
+
+console.log(f10(a10, b10));
