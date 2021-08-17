@@ -81,14 +81,14 @@ function ascFunc(a, b) {
   return a - b;
 }
 
-function ascFunc(a, b) {
+function descFunc(a, b) {
   return b - a;
 }
 
 const f3 = (obj, type = "asc") => {
   let val = Object.values(obj);
   if (type == "asc") return val.sort(ascFunc);
-  if (type == "desc") return val.sort(descFun);
+  if (type == "desc") return val.sort(descFunc);
 };
 
 console.log(f3(d3, "asc"));
