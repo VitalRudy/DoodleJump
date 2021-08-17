@@ -180,4 +180,8 @@ console.log(f10(a10, b10));
 
 -------------------------------------------------------------------------------
 //Task 11
-//
+//Add all digits of the integer
+
+const a11 = 8947; // 8 + 9 + 4 + 7
+let res11 = a11.toString().split('').reduce( (accum, item) => {return accum += +item},0); 
+console.log(res11);
