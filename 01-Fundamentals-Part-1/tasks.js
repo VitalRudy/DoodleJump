@@ -185,3 +185,25 @@ console.log(f10(a10, b10));
 const a11 = 8947; // 8 + 9 + 4 + 7
 let res11 = a11.toString().split('').reduce( (accum, item) => {return accum += +item},0); 
 console.log(res11);
+
+-------------------------------------------------------------------------------
+//Task 12
+//Count the number of times a character occurs in a string  
+
+const a12 = 'a';
+const str12 = 'Lama Panama Gwatemala';
+
+const f12 = (str, s) => {
+  let index = str.indexOf(s);
+  let count = 0;
+  while(index !== -1) {
+      count++;
+      index = str.indexOf(s, index +1);
+  }
+  return count;
+}
+
+console.log(f12(str12, s12));
+-------------------------------------------------------------------------------
+//Task 13
+//Are all the numbers in the sequence unique?
