@@ -203,7 +203,8 @@ const f12 = (str, s) => {
   return count;
 }
 
-console.log(f12(str12, s12));
+console.log(f12(str12, a12));
+
 -------------------------------------------------------------------------------
 //Task 13
 //Are all the numbers in the sequence unique?
