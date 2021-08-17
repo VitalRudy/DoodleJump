@@ -118,3 +118,18 @@ console.log(typeOf res5);
 
 -------------------------------------------------------------------------------
 //Task 6
+//Write a check to see if the string is a pallindrome or not.
+  
+const a6 = 'abba1';
+
+const f6 = str => {
+  return str === str.split('').reverse().join('');
+}
+
+console.log(f6(a6));
+
+-------------------------------------------------------------------------------
+//Task 7
+// Input the first one and the last one element of the list.
+
+const a7 = [1, 2, 3, 4, 5];
