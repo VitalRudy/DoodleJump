@@ -143,6 +143,7 @@ const f8 = filename => {
   let res = filename.split('.').pop();
   //console.log(res);
   if(res !== filename) return res;
+  throw 'Exension not found';
 }
 
 console.log(f8(filename));
