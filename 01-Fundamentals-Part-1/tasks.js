@@ -95,7 +95,7 @@ console.log(f3(d3, "asc"));
 console.log(f3(d3, "desc"));
 
 -------------------------------------------------------------------------------
-// Task 4
+//Task 4
 // Write a programm to merge two objects in one.
   
 const a4 = {1:10, 2:20},
@@ -135,6 +135,7 @@ console.log(f6(a6));
 const a7 = [1, 2, 3, 4, 5];
 console.log(a7[0], a7[a7.length - 1]);
 
+-------------------------------------------------------------------------------
 //Task 8 
 //Write a program that accepts the file name and outputs its extension. If the file extension cannot be determined, throw an exception.
 
@@ -147,3 +148,19 @@ const f8 = filename => {
 }
 
 console.log(f8(filename));
+
+-------------------------------------------------------------------------------
+//Task 9 
+// Write a program that outputs even numbers fron a given list and stops if it encounters the number 228.
+ 
+const a9 = [
+  122, 134, 155, 166, 175, 182, 184, 193, 256, 233, 278, 346, 432, 228, 222, 456, 432, 896, 654, 453, 347, 152 
+  ];
+
+const f9 = arr => {
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] === 237) return;
+    if(arr[i] % 2 === 0) console.log(arr[i]);
+  }
+}
+f9();
