@@ -107,4 +107,14 @@ const c4 = {5:50, 6:60};
 const obj4 = Object.assign({}, a4, b4, c4);
 console.log(obj4);
 
+-------------------------------------------------------------------------------
 //Task 5
+//Write a code , that change an integer into a string.
+
+const a5 = 456,  
+const res5 = a5.toString();
+console.log(res5);
+console.log(typeOf res5);
+
+-------------------------------------------------------------------------------
+//Task 6
