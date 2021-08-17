@@ -133,4 +133,16 @@ console.log(f6(a6));
 // Input the first one and the last one element's of the list.
 
 const a7 = [1, 2, 3, 4, 5];
+console.log(a7[0], a7[a7.length - 1]);
 
+//Task 8 
+//Write a program that accepts the file name and outputs its extension. If the file extension cannot be determined, throw an exception.
+
+const filename = 'my_homevideo22.mp4';
+const f8 = filename => {
+  let res = filename.split('.').pop();
+  //console.log(res);
+  if(res !== filename) return res;
+}
+
+console.log(f8(filename));
