@@ -159,8 +159,8 @@ const a9 = [
 
 const f9 = arr => {
   for(let i = 0; i < arr.length; i++) {
-    if(arr[i] === 237) return;
+    if(arr[i] === 228) return;
     if(arr[i] % 2 === 0) console.log(arr[i]);
   }
 }
-f9();
+f9(a9);
