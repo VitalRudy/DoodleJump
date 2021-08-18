@@ -206,4 +206,10 @@ const f12 = (str, s) => {
 console.log(f12(str12, a12));
 
 -------------------------------------------------------------------------------
+//Task 13
+//Are all the numbers in the sequence unique?
 
+const a13 = [1,2,3,4,5,6,7];
+
+let s13 = new Set(a13);
+console.log(a13.length === s13.size);
