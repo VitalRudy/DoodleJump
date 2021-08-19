@@ -5,7 +5,14 @@ let [x,y] = [1,2]; // => let x = 1, y = 2;
 [x, y] = [y, x]; // replace x and y;
 [x, y]; // => [3,2]
 
+----------------------------------------------
 
+let o = {x:1, y:2};
+for(const[name, value] of Object.entires(0)) {
+  console.log(name, value); // 'x 1' and 'y 2';
+}; 
+
+----------------------------------------------
 
 
 
