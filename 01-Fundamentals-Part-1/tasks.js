@@ -213,3 +213,22 @@ const a13 = [1,2,3,4,5,6,7];
 
 let s13 = new Set(a13);
 console.log(a13.length === s13.size);
+
+-------------------------------------------------------------------------------
+//Task 14
+//Find the intersections of two arrays.
+
+const input1 = [1,2,2,1],
+const input2 = [2,2],
+//Output: [2,2]
+
+const input3 = [4,9,5],
+const input4 = [9,4,9,8,4];
+//Output: [4,9] or [9,4]
+
+const intersection = function (nums1, nums2) {
+  
+};
+
+console.log(intersetion(input1, input2));
+console.log(intersetion(input3, input4));
