@@ -226,4 +226,25 @@ const input3 = [4,9,5],
 const input4 = [9,4,9,8,4];
 //Output: [4,9] or [9,4]
 
+const intersection = function (nums1, nums2) {
+  let result = [];
+  
+  let map = nums1.reduce((acc, i) => {
+    acc[i] = acc[i] ? acc[i] + 1: 1;
+    return acc;
+  }, {});
+  
+  for (let i = 0; i < nums2.length; i++) {
+    const current = nums2[i];
+    let count = map[current];
+    
+    if (count && count > 0) {
+      reult.push(current);
+      map[current] -= 1;
+  }
+}
+  return result;
+};
 
+console.log(intersetion(input1, input2));
+console.log(intersetion(input3, input4));
