@@ -246,5 +246,5 @@ const intersection = function (nums1, nums2) {
   return result;
 };
 
-console.log(intersetion(input1, input2));
-console.log(intersetion(input3, input4));
+//console.log(intersetion(input1, input2));
+//console.log(intersetion(input3, input4));
