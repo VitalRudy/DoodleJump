@@ -1,4 +1,8 @@
+// Task 1
+// There is a (Array) = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+// Output all elements, that < 5,
 
+const a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
 
 // Solution 1 
 
