@@ -22,13 +22,4 @@ function makeOperation(operationCode) {
 		window.alert(result); 
 }
 
-function onOperationButtonClick(eventObject) {
-	const clickedElement = eventObject.currentTarget;
-	const operation = clickedElement.innerHTML
-	makeOperation(operation);
-}
 
-for(let i = 0; i < operationButtons.length; i++) {
-	const button = operationButtons[i];
-	button.addEventListener('click', onOperationButtonClick); 
-}
