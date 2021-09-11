@@ -1,5 +1,4 @@
 'use strict';
 
-const message = document.querySelector('.message').textContent;
-
-console.log(message);
+console.log(document.querySelector('.message').textContent);
+document.querySelector('.message').textContent = 'Correct Number!';
