@@ -26,3 +26,17 @@ c.right = f;
 //   b   c
 //  / \   \
 // d   e   f
+
+depthFirstValues(a);
+
+const depthFirstValues = root => {
+  // todo
+  const stack = [root];
+  while (stack.length > 0) {
+    const current = stack.pop();
+    console.log(current.val);
+
+    if (current.right) stack.push(current.right);
+    if (current.left) stack.push(current.left);
+  }
+};
