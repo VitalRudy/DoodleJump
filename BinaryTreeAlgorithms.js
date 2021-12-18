@@ -30,13 +30,17 @@ c.right = f;
 depthFirstValues(a);
 
 const depthFirstValues = root => {
+  if (root === null) return [];
+
   // todo
-  const stack = [root];
+  const result = [];
+  const stack = [root]; // [ null ]
   while (stack.length > 0) {
     const current = stack.pop();
-    console.log(current.val);
+    result.push(current.val);
 
     if (current.right) stack.push(current.right);
     if (current.left) stack.push(current.left);
   }
+  return result();
 };
